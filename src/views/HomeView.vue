@@ -13,8 +13,6 @@ import { onMounted, ref, onUnmounted } from "vue";
 import * as Cesium from "cesium";
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { flightRoutes } from "../utils/flightRoutes";
-
-// Cesium token
 Cesium.Ion.defaultAccessToken =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI1YWUxYzYyOS01NTczLTQ5MmMtOGNmNS1mODg5MzJkN2I0OWUiLCJpZCI6MzA3NzAzLCJpYXQiOjE3NDg1NzQ5NzB9.LUkugDrB3RgfenlB85WkX2mJ2wPCh0JT8TBxEeBJIIU";
 
