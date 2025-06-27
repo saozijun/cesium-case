@@ -276,7 +276,7 @@ onMounted(async () => {
 
     // 加载无人机模型
     model: {
-      uri: "uav/scene.gltf",
+      uri: "public/uav/scene.gltf",
       minimumPixelSize: 64,
       scale: 1,
     },
