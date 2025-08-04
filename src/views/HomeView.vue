@@ -334,7 +334,10 @@ onUnmounted(() => {
   overflow: hidden;
   position: relative;
 }
-
+#cesium-container{
+  width: 100%;
+  height: 100%;
+}
 .toolbar {
   position: absolute;
   top: 10px;
